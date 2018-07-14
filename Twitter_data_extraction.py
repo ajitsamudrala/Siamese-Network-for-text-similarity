@@ -14,13 +14,6 @@ import csv
 import re
 
 
-# In[2]:
-
-
-consumer_key= 'u0l6coozhZdELJKjhldkcpFiG'
-consumer_secret = 'iyoGoIQaO3cpJXTyL1KyAQ0bib4y1jMLhjNDgiW85pZ250vbRy'
-access_key= '179160532-AuRXjOXlgfg3hJ6X8t2fWJ4pGRHjQcAx1sS2NmP5'
-access_secret = 'bPyCcY2kEGj3avqcVljWXoF55O1y0MAaLLgggy9fHX1Vj'
 
 
 # In[107]:
