@@ -81,7 +81,7 @@ class Siamese_network():
 
     def model(self,data_1,data_2,labels,model_save_directory='./'):
         
-        reg=regularizers.l1(0.2)
+        reg=regularizers.l1(0.3)
         
         layer_1=Bidirectional(LSTM(self.number_lstm_units,dropout=0.1,recurrent_dropout=0.1,return_sequences=True))
         layer_2=Bidirectional(LSTM(self.number_lstm_units,dropout=0.1,recurrent_dropout=0.1,return_sequences=True))
